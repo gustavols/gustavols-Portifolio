@@ -1,0 +1,74 @@
+/* RESET CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ESTILIZAÇÃO GLOBAL DA PÁGINA */
+
+html, body{
+    background: #121214;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* ESTILIZAÇÃO HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    background: #121214;
+}
+
+/* ESTILIZAÇÃO MENU */
+
+header .menu{
+    background: #121214;
+}
+
+header .menu a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+
+/* ESTILIZAÇÃO CONTENT */
+.content{
+    background: #121214;
+
+}
+.contentTitle h1{
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+    font-weight: bolder;
+}
+.contentSub{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contentSub p{
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contentSub button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 12px;
+    color: white;
+    width: 30%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
