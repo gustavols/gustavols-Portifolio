@@ -1,18 +1,34 @@
-# Portifolio Gustavo Leandro dos Santos
-## Descrição: 
-### Repositório contendo o portfólio do aluno Gustavo Leandro dos Santos, Cursando atualmente o curso de Desenvolvimento de Software Multiplataforma
 
-## Aluno: Gustavo Leandro dos Santos
-## Disciplina: Design Digital
-## Professor: Fabricio Galendes
-## Curso: Desenvolvimento de Software Multiplataforma
+<h1 align="center">
+Portifolio - Gustavo Leandro dos Santos
+</h1>
 
-## Wireframe Completo: <br>https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1
-
-## Vídeo de Apresentação: <br>https://www.youtube.com/watch?v=AozXUXahUds
+<p align="center">Aluno: Gustavo Leandro dos Santos</p>
+<p align="center">Repositório contendo o portfólio do aluno Gustavo Leandro dos Santos, Cursando atualmente o curso de Desenvolvimento de Software Multiplataforma.</p>
 
 
+<hr>
+
+## Participants
+
+| [<img src="https://avatars.githubusercontent.com/u/55259166?v=4" width="75px;"/>](https://github.com/guilhermerodz) |
+| :------------------------------------------------------------------------------------------------------------------------: |
 
 
+| [Gustavo Santos](https://github.com/gustavols)
+
+## Techs
+
+- [x] HTML 5
+- [x] CSS 3
+- [x] BOOTSTRAP 4
+
+## Wireframe Completo:
+
+- [ ] https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1
+
+## Vídeo de Apresentação: 
+
+https://www.youtube.com/watch?v=AozXUXahUds
 
 
