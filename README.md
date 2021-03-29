@@ -18,13 +18,13 @@ Portifolio - Gustavo Leandro dos Santos
 
 | [Gustavo Santos](https://github.com/gustavols)
 
-## *Techs*
+## *Techs &#128204;*
 
 - [x] HTML 5
 - [x] CSS 3
 - [x] BOOTSTRAP 4 *Version 4*
 
-## *Content*
+## *Content &#128221;*
 
 - [x] src - Pasta onde contém os arquivos do Site(Arquivos HTML e Estilos.)
 - [x] mgt - Pasta onde contém fotos e pdf do protótipo navegável do site.
