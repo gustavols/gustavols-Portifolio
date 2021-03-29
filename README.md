@@ -10,7 +10,7 @@ Portifolio - Gustavo Leandro dos Santos
 
 <hr>
 
-## *Participants*
+## *Creator &#128071;*
 
 | [<img src="https://avatars.githubusercontent.com/u/55259166?v=4" width="75px;"/>](https://github.com/guilhermerodz) |
 | :------------------------------------------------------------------------------------------------------------------------: |
