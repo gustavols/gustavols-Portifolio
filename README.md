@@ -24,6 +24,12 @@ Portifolio - Gustavo Leandro dos Santos
 - [x] CSS 3
 - [x] BOOTSTRAP 4 *Version 4*
 
+## *Content*
+
+- [x] src - Pasta onde contém os arquivos do Site(Arquivos HTML e Estilos.)
+- [x] mgt - Pasta onde contém fotos e pdf do protótipo navegável do site.
+- [x] readme.md - Arquivo onde contém informações sobre o Projeto.
+
 ## *Wireframe Completo:*
 
 - [ ] https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1
