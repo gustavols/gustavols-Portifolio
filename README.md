@@ -10,7 +10,7 @@ Portifolio - Gustavo Leandro dos Santos
 
 <hr>
 
-## Participants
+## *Participants*
 
 | [<img src="https://avatars.githubusercontent.com/u/55259166?v=4" width="75px;"/>](https://github.com/guilhermerodz) |
 | :------------------------------------------------------------------------------------------------------------------------: |
@@ -18,17 +18,17 @@ Portifolio - Gustavo Leandro dos Santos
 
 | [Gustavo Santos](https://github.com/gustavols)
 
-## Techs
+## *Techs*
 
 - [x] HTML 5
 - [x] CSS 3
-- [x] BOOTSTRAP 4
+- [x] BOOTSTRAP 4 *Version 4*
 
-## Wireframe Completo:
+## *Wireframe Completo:*
 
 - [ ] https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1
 
-## Vídeo de Apresentação: 
+## *Vídeo de Apresentação*
 
 - [ ] https://www.youtube.com/watch?v=AozXUXahUds
 
