@@ -1,11 +1,10 @@
 
-<h1 align="center">
-Portifolio - Gustavo Leandro dos Santos
-</h1>
+<p align="center"><img src="https://github.com/gustavols/gustavols-Portifolio/blob/main/src/assets/logo.PNG" width="200px;"/></p>
+
 
 <p align="center">Aluno: Gustavo Leandro dos Santos</p>
 <p align="center">Repositório contendo o portfólio do aluno Gustavo Leandro dos Santos, Cursando atualmente o curso de Desenvolvimento de Software Multiplataforma.</p>
-<p align="center"><img src="https://github.com/gustavols/gustavols-Portifolio/blob/main/src/assets/logo.PNG" width="100px;"/></p>
+
 
 
 <hr>
