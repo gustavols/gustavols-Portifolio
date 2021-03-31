@@ -9,7 +9,7 @@
 
 <hr>
 
-## *Creator &#128071;*
+## &#128071; *Creator*
 
 | [<img src="https://avatars.githubusercontent.com/u/55259166?v=4" width="75px;"/>](https://github.com/guilhermerodz) |
 | :------------------------------------------------------------------------------------------------------------------------: |
@@ -17,25 +17,25 @@
 
 | [Gustavo Santos](https://github.com/gustavols)
 
-## *Techs &#128204;*
+## &#128204; *Techs*
 
 - [x] HTML 5
 - [x] CSS 3
 - [x] BOOTSTRAP 4 *Version 4*
 
-## *Content &#128221;*
+## &#128221; *Content*
 
 - [x] src - Pasta onde contém os arquivos do Site(Arquivos HTML e Estilos.)
 - [x] mgt - Pasta onde contém fotos e pdf do protótipo navegável do site.
 - [x] readme.md - Arquivo onde contém informações sobre o Projeto.
 
-## *Wireframe Completo:*
+## &#128193; *Wireframe Completo*
 
-- [ ] https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1
+- [ ] [WIREFRAME AQUI](https://www.figma.com/file/uKjXqrhNc3N3qLk2cnuJQj/PORTFOLIO?node-id=0%3A1)
 
-## *Vídeo de Apresentação*
+## &#127910; *Vídeo de Apresentação*
 
-- [ ] https://www.youtube.com/watch?v=AozXUXahUds
+- [ ] [VÍDEO COMPLETO](https://www.youtube.com/watch?v=AozXUXahUds)
 
 
 
