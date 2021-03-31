@@ -21,7 +21,7 @@
 
 - [x] HTML 5
 - [x] CSS 3
-- [x] BOOTSTRAP 4 *Version 4*
+- [x] BOOTSTRAP 4
 
 ## &#128221; *Content*
 
