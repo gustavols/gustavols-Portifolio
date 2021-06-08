@@ -35,7 +35,7 @@
 
 ## &#127910; *Vídeo de Apresentação*
 
-- [ ] [VÍDEO COMPLETO](https://www.youtube.com/watch?v=AozXUXahUds)
+- [ ] [VÍDEO COMPLETO](https://youtu.be/crNNcs0B12Y)
 
 
 
