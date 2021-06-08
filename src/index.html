@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- LINK DE ESTILIZAÇÃO DA PÁGINA -->
-    <link rel="stylesheet" href="../src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
     
     <!-- LINK DE APONTAMENTO DO BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -16,41 +16,103 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- FAVICON DA PÁGINA -->
-    <link rel="shortcut icon" href="../src/assets/logo.PNG" type="image/x-icon">
+    <link rel="shortcut icon" href="src/assets/logo.PNG" type="image/x-icon">
 
     <!-- TITULO DA PÁGINA -->
     <title>Gustavo Leandro dos Santos</title>
     
 </head>
 <body>
-    
     <!-- MENU DA PÁGINA -->
-        <header>
-            <div class="logo">
-                <picture>
-                    <img src="../src/assets/logo.PNG" class="img-fluid" alt="...">
-                </picture>
+
+        <nav class="navbar navbar-expand-lg navbar-light  container">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="src/assets/logo.PNG" width="80%" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="src/about.html">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="src/tecnologias.html">Tecnologias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="src/work.html">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="src/contato.html">Contato</a>
+                  </li>
+
+                  </li>
+                </ul>
+                
+              </div>
             </div>
-            <div class="menu">
-                <a href="">About</a>
-                <a href="">Contact</a>
-            </div>
-        </header> 
+          </nav>
+
     <!-- FIM DO MENU DA PÁGINA -->     
      
     <!-- INICIO CONTENT  --> 
-        <section>
+        <section class="apresentation">
             <div class="content">
                 <div class="contentTitle">
                     <h1>Gustavo Leandro <br> dos Santos</h1>
                 </div>
                 <div class="contentSub">
                     <p>Conheça um pouco mais <br> sobre a minha história</p>
-                    <button>CONHECER</button>
+                    <button><a href="src/about.html">conhecer</a></button>
                 </div>
             </div>
         </section>
     <!-- FIM CONTENT -->
+
+    <!-- COMEÇO HISTORY -->
+    <section class="container historyTitle">
+        <div class="row">
+          <div class="col-sm historyTitle">
+            <h1>minha<br>história</h1>
+                <p>Apaixonado pelas principais<br>tecnologias de desenvolvimento do<br>mercado atual</p>
+          </div>
+          <div class="col-sm historyButton">
+            <button><a href="src/about.html">saber mais</a></button>
+          </div>
+        </div>
+      </section>
+    <!-- FIM HISTORY -->
+    <!-- COMEÇO PROJETOS -->
+    <section class="container projects">
+        <div class="row">
+            <div class="col-sm projectsButton">
+                <button><a href="src/work.html">saber mais</a></button>
+            </div>
+            <div class="col-sm projectsTitle">
+                <h1>desenvolvendo<br>diversos<br>projetos</h1>  
+            </div>
+        </div>
+      </section>
+    <!-- FIM PROJETOS -->
+    <!-- COMEÇO FOOTER -->
+    <section class="container footerLike">
+        <div class="row">
+            <div class="col-sm footerLike">
+                <h1>Curtiu o<br>Projeto</h1>
+            </div>
+            <div class="col-sm footerSocial">
+                <img src="src/assets/github.png" alt="" >
+                <a href="https://github.com/gustavols" target="_blank"><span>GitHub</span></a>
+                <img src="src/assets/linkedin.png" alt="" >
+                <a href="https://www.linkedin.com/in/gustavo-santos-a0657219b/" target="_blank"><span>Linkedin</span></a>
+                <img src="src/assets/instagram.png" alt="">
+                <a href="https://www.instagram.com/gustavoleandro13/?hl=pt-br" target="_blank"><span>Instagram</span></a> 
+            </div>
+        </div>
+      </section>
+    <!-- FIM FOOTER -->
+
+    
 
     <!-- APONTAMENTO DO JAVASCRIPT RELACIONADO AO BOOTSTRAP -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
