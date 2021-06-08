@@ -6,56 +6,38 @@
     box-sizing: border-box;
 }
 
+/* FIM RESET CSS */
+
 
 /* ESTILIZAÇÃO GLOBAL DA PÁGINA */
 
 html, body{
-    background: #121214;
     font-family: 'Roboto', sans-serif;
 }
 
-
-/* ESTILIZAÇÃO HEADER */
-
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 32px;
-    background: #121214;
-}
-
-/* ESTILIZAÇÃO MENU */
-
-header .menu{
-    background: #121214;
-}
-
-header .menu a{
-    text-decoration: none;
-    color: white;
-    margin: 10px;
-    font-weight: bolder;
-}
-
+/* FIM ESTILIZAÇÃO GLOBAL DA PÁGINA */
 
 /* ESTILIZAÇÃO CONTENT */
-.content{
-    background: #121214;
 
+.content{
+    padding: 150px;
 }
+
 .contentTitle h1{
     padding-top: 5%;
     text-align: center;
-    color: white;
+    color: #121214;
     font-size: 72px;
     font-weight: bolder;
 }
+
 .contentSub{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .contentSub p{
-    color: white;
+    color: #121214;
     text-align: right;
     margin-right: 20px;
     font-size: 25px;
@@ -70,5 +52,1081 @@ header .menu a{
     height: 60px;
     border-radius: 4px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
+.contentSub button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FIM ESTILIZAÇÃO CONTENT */
+
+
+/* ESTILIZAÇÃO HISTORY */
+.historyTitle{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.historyTitle h1{
+    color: black;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 72px;
+    text-align: center;
+}
+
+.historyTitle p{
+    color: black;
+    font-size: 25px; 
+    text-align: center;
+}
+
+.historyButton{
+    text-align: center;
+}
+
+.historyButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 30%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.historyButton button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* FIM ESTILIZAÇÃO HISTORY */
+
+
+/* ESTILIZAÇÃO PROJECTS */
+
+.projectsTitlew{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.projectsTitlew h1{
+    color: #121214;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 62px;
+}
+
+.projects .projectsSubtitle p {
+    font-size: 50px;
+}
+
+.projectsButton{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.projectsButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 30%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.projectsButton button a{
+    text-decoration: none;
+    color: white;
+}
+/* FIM ESTILIZAÇÃO PROJECTS */
+
+/* ESTILIZAÇÃO RODAPÉ */
+
+.footerLike{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footerLike h1{
+    text-align: center;
+    color: #121214;
+    font-weight: 700;
+    font-size: 62px;
+    text-align: center;
+}
+
+.footerSocial{
+    text-align: justify;
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.footerSocial span{
+    color: #121214;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.footerSocial a{
+    text-decoration: none;
+}
+
+.footerSocial a:hover{
+    text-decoration: none;
+}
+
+.footerSocial img{
+    width: 10%;
+    padding-left: 30px;
+}
+
+.foo{
+    margin-top: 90px;
+}
+
+/* FIM ESTILIZAÇÃO RODAPÉ */
+
+
+/* COMEÇO ESTILIZAÇÃO PHOTO */
+
+.photoTitle h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.photoTitle p{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+/* FIM ESTILIZAÇÃO PHOTO */
+
+
+/* COMEÇO ESTILIZAÇÃO ACADEMY */
+
+.academy h1{
+    font-size: 62px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.academyFirst h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.academyFirst h6{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.academyFirst p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.academyFirst span{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.academySecond h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.academySecond h6{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.academySecond p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.academySecond span{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.profissional h1{
+    padding-top: 100px;
+    font-size: 62px;
+    font-weight: bold;
+}
+
+.profissionalFirst h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.profissionalFirst h6{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.profissionalFirst p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.profissionalFirst span{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.profissionalSecond h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.profissionalSecond h6{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.profissionalSecond p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.profissionalSecond span{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.profissionalThrist h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.profissionalThrist h6{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.profissionalThrist p{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.profissionalThrist span{
+    font-size: 26px;
+    font-weight: normal;
+}
+
+
+.aboutButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 15%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.aboutButton{
+    text-align: center;
+}
+
+.aboutButton button a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* FIM ESTILIZAÇÃO ACADEMY */
+
+
+/* INICIO ESTILIZAÇÃO TECNOLOGIAS */
+
+.tecnologiasTitle h1{
+    font-size: 62px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tecnologiasSubtitle p{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.tectile{
+    font-size: 32px;
+    padding: 60px 0px 10px 0px;
+}
+
+.tecnologiasImage1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tecnologiasImage2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tecnologiasImage3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tecButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 20%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tecButton{
+    text-align: center;
+}
+
+.tecButton button a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* FIM ESTILIZAÇÃO TECNOLOGIAS */
+
+
+/* INICIO ESTILIZAÇÃO PROJETOS */
+
+.projectsTitle h1{
+    font-size: 62px;
+    font-weight: bold;
+    text-transform: uppercase;
+     
+}
+
+.projectsSubtitle p{
+    font-size: 26px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+.projectstile{
+    font-size: 32px;
+    padding: 60px 0px 10px 0px;
+}
+
+.projectsImage1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.projectsImage1 img{
+    box-shadow: 0.5px 0.5px 11px 0.5px black;
+}
+
+.projectsButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 20%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projectsButton{
+    text-align: center;
+}
+
+.projectsButton button a{
+    text-align: center;
+}
+
+.projectsButton button{
+    background: #9466FF;
+    border: 1px solid #9466FF;
+    margin-top: 102px;
+    color: white;
+    width: 20%;
+    height: 60px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projectsButton{
+    text-align: center;
+}
+
+.projectsButton button a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+/* FIM ESTILIZAÇÃO PROJETOS */
+
+
+/* INICIO ESTILIZAÇÃO CONTATO */
+
+form textarea{
+    margin-top: 10px;
+}
+
+form input{
+    margin-top: 10px;
+}
+
+form button{
+    width: 250px;
+    height: 35px;
+    background-color: #9466FF;
+    border: 1px solid #9466FF;
+    color: white;
+    text-decoration: none;
+}
+
+form button:hover{
+    color: #9466FF;
+    background-color: white;
+    border: 1px solid #9466FF;
+    transition: 800ms;
+}
+
+/* FIM ESTILIZAÇÃO CONTATO */
+
+
+/* INICIO ESTILIZAÇÃO SUCESS */
+
+.sucess{
+    text-align: center;
+}
+
+.titleSucess{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.subtitleSucess{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.buttonSucess {
+    width: 220px;
+    height: 35px;
+    background-color: #9466FF;
+    border: 1px solid #9466FF;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonSucess:hover{
+    color: #9466FF;
+    background-color: white;
+    border: 1px solid #9466FF;
+    transition: 800ms;
+}
+
+/* FIM ESTILIZAÇÃO SUCESS */
+
+
+
+
+/* ================================= RESPONSIVIDADE ================================= */
+
+/* RESPONSIVIDADE PÁGINA INDEX */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .apresentaion{
+        text-align: center;
+    
+    }
+    .content{
+        text-align: center;
+        width: 100%;
+        display: block;
+        grid-template-columns: 1fr;
+    }
+  
+    .contentTitle h1{
+        font-size: 60px;
+        margin-left: -45px;
+        text-align: justify;
+    }
+    .contentSub{
+        display: block;
+        grid-template-columns: 100%;
+    }
+    .contentSub p{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .contentSub button{
+        text-align: center;
+        width: 100%;
+    }
+    .historyTitle h1{
+        font-size: 60px;
+    }
+    .historyTitle p{
+        font-size: 20px;
+    }
+    .historyButton button{
+        margin-top: 10px;
+    }
+
+    .projectsTitle{
+        display: flex;
+        flex-direction: column;
+    }
+    .projectsButton{
+        order: 3;
+    }
+    .projectsTitle{
+        order: 2;
+    }
+    .projectsButton button{
+        width: 30%;
+        margin-top: 1px;
+    }
+    .projectsTitle h1{
+        font-size: 40px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .footerLike h1{
+        margin-bottom: -100px;
+        text-align: center;
+    }
+    .footerSocial img{
+        width: 15%;
+        text-align: center;
+    }
+    .footerSocial span{
+        font-size: 15px;
+        margin-top: -30px;
+        text-align: center;
+    }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo picture a img{
+        width: 70%;
+    }
+    .contentTitle h1{
+        font-size: 37px;
+    }
+    .contentSub p{
+        font-size: 10px;
+    }
+    .contentSub button{
+        width: 100px;
+        height: 40px;
+    }
+    .contentSub button a{
+        font-size: 12px;
+    }
+    .historyTitle h1{
+        font-size: 45px;
+    }
+    .historyTitle p{
+        font-size: 14px;
+    }
+    .historyButton button{
+        width: 120px;
+    }
+    .projectsButton button{
+        width: 120px;
+        height: 50px;
+    }
+    .projectsTitle h1{
+        font-size: 30px;
+        margin-top: 55px;
+    }
+    .footerLike h1{
+        font-size: 55px;
+        text-align: center;
+    }
+    .footerSocial span{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .footerSocial img{
+        width: 50px;
+        margin-left: -30px;
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contentTitle h1{
+        font-size: 59px;
+    }
+    .contentSub p{
+        font-size: 18px;
+    }
+    .contentSub button{
+        width: 130px;
+    }
+    .historyTitle h1{
+        font-size: 55px;
+    }
+    .historyTitle p{
+        font-size: 20px;
+    }
+    .historyButton button{
+        width: 150px;
+    }
+    .projectsButton button{
+        width: 150px;
+    }
+    .projectsTitle h1{
+        font-size: 40px;
+        margin-top: 55px;
+    }
+    .footerLike h1{
+        font-size: 55px;
+        text-align: center;
+    }
+    .footerSocial span{
+        font-size: 14px;
+        text-align: center;
+    }
+    .footerSocial img{
+        width: 50px;
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contentSub button{
+        width: 230px;
+    }
+    .projectsTitle h1{
+        font-size: 50px;
+        margin-top: 40px;
+    }
+    .projectsButton button{
+        width: 200px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .footerSocial span{
+        font-size: 28px;
+        margin-right: 25px;
+        margin-top: 5px;
+        text-align: center;
+    }
+}
+
+
+
+/* RESPONSIVIDADE PÁGINA SOBRE */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .photo{
+        display: block;
+        grid-template-columns: 1fr;
+    }
+    .photoTitle h1{
+        font-size: 50px;
+        margin-top: 20px;
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+    .photoTitle p{
+        padding: 20px;
+    }
+    .photoImage{
+        text-align: center; 
+    }
+    .academy h1{
+        font-size: 50px;
+        padding: 50px 10px 5px 10px;
+    }
+    .academyFirst h2 {
+        padding: 10px 10px 5px 10px;
+    }
+    .academyFirst h6 {
+        padding: 10px 10px 5px 10px;
+    }
+    .academyFirst p {
+        padding: 10px 10px 5px 10px;
+    }
+    .academyFirst span {
+        padding: 10px 10px 5px 10px;
+    }
+
+    .academySecond h2 {
+        padding: 10px 10px 5px 10px;
+    }
+    .academySecond h6 {
+        padding: 10px 10px 5px 10px;
+    }
+    .academySecond p {
+        padding: 10px 10px 5px 10px;
+    }
+    .academySecond span {
+        padding: 10px 10px 5px 10px;
+    }
+    .profissional h1{
+        font-size: 50px;
+        padding: 50px 10px 5px 10px;
+    }
+
+    .profissionalFirst h2{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalFirst h6{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalFirst p{
+        padding: 10px 10px 5px 10px;
+    }
+    .profissionalFirst span{
+        padding: 10px 10px 5px 10px;
+    }
+
+
+
+    .profissionalSecond h2{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalSecond h6{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalSecond p{
+        padding: 10px 10px 5px 10px;
+    }
+    .profissionalSecond span{
+        padding: 10px 10px 5px 10px;
+    }
+
+
+
+    .profissionalThrist h2{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalThrist h6{
+        padding: 10px 10px 5px 10px;
+    } 
+
+    .profissionalThrist p{
+        padding: 10px 10px 5px 10px;
+    }
+    .profissionalThrist span{
+        padding: 10px 10px 5px 10px;
+    }
+
+    .aboutButton button{
+        width: 80%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .aboutButton button{
+        width: 50%;
+    }
+    .photoImage{
+        text-align: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .aboutButton button{
+        width: 40%;
+    }
+    .photoImage{
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .aboutButton button{
+        width: 30%;
+    }
+    .photoImage{
+        text-align: center;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .aboutButton button{
+        width: 20%;
+    }
+    .photoImage{
+        text-align: center;
+    }
+}
+    
+
+
+
+
+
+/* RESPONSIVIDADE PÁGINA TECNOLGIAS */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .tecnologiasTitle h1{
+        font-size: 38px;
+        margin-top: 42px;
+        padding: 0px 0px 0px 10px;
+    }
+    .tecnologiasSubtitle p{
+        padding: 0px 0px 0px 10px;
+    }
+    .tectile{
+        text-align: center;
+    }
+
+    .tecnologiasImage1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage1 img{
+        padding: 10px;
+    }
+
+    .tecnologiasImage2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage2 img{
+        padding: 10px;
+    }
+
+    .tecnologiasImage3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage3 img{
+        padding: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .tecnologiasTitle h1{
+        margin-top: 50px;
+    }
+    .tectile{
+        text-align: center;
+    }
+
+    .tecnologiasImage1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage1 img{
+        padding: 10px;
+    }
+
+    .tecnologiasImage2{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage2 img{
+        padding: 10px;
+    }
+
+    .tecnologiasImage3{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .tecnologiasImage3 img{
+        padding: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .tecnologiasTitle h1{
+        margin-top: 50px;
+    }
+    .tecnologiasImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .tecnologiasTitle h1{
+        margin-top: 50px;
+    }
+    .tecnologiasImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .tecnologiasImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tecnologiasImage3{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+/* RESPONSIVIDADE PÁGINA PROJETOS */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .projectsTitlew h1{
+       margin-top: -20px;
+   }
+   .projectsImage1{
+       display: grid;
+       grid-template-columns: 1fr;
+       margin-bottom: 10px;
+   }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .projectsTitlew h1{
+        margin-top: -20px;
+    }
+    .projectsImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .projectsTitlew h1{
+        margin-top: -20px;
+    }
+    .projectsImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .projectsTitlew h1{
+        margin-top: -20px;
+    }
+    .projectsImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .projectsTitlew h1{
+        margin-top: -20px;
+    }
+    .projectsImage1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 10px;
+    }
+}
